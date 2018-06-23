@@ -1,2 +1,2 @@
 # DesignPatternByExample
-Identifying various GOF patterns in existing pattner
+Identifying various GOF patterns in existing projects
