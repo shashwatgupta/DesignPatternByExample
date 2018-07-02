@@ -17,16 +17,16 @@ Decorator Pattern lets you add extensions to functionality to an object after co
 ### Key Idea
 A proxy is a wrapper or agent object that is being called by the client to access the real serving object behind the scenes. In the proxy, extra functionality can be provided, for example caching when operations on the real object are resource intensive.A protection proxy might be used to control access to a resource based on access rights.
 
-	1. WCF Proxy - https://docs.microsoft.com/en-us/dotnet/framework/wcf/accessing-services-using-a-wcf-client
-  2. Microsoft Graph SDK - https://github.com/microsoftgraph/msgraph-sdk-dotnet
+	1. [WCF Proxy](https://docs.microsoft.com/en-us/dotnet/framework/wcf/accessing-services-using-a-wcf-client)
+  2. [Microsoft Graph SDK](https://github.com/microsoftgraph/msgraph-sdk-dotnet)
   
 ## Flyweight DesignPattern
 ### Key Idea
 When these objects are immutable, i.e. they do not modify its internal state except maybe for reattaching to a new set of state data, and some additional conditions are met. We can Use flyweight pattern.
  1. [String Intern](https://stackoverflow.com/questions/2909848/how-does-java-implement-flyweight-pattern-for-string-under-the-hood)
-	2. Word processor
-	3. Boost Flyweight library, lets you create new Flyweight object easily(https://www.boost.org/doc/libs/1_62_0/libs/flyweight/doc/tutorial/basics.html)
- Implementionaton  https://www.boost.org/doc/libs/1_62_0/boost/flyweight/serialize.hpp
+ 2. Word processor
+ 3. Boost Flyweight library, lets you create new [Flyweight object easily](https://www.boost.org/doc/libs/1_62_0/libs/flyweight/doc/tutorial/basics.html)
+ [Implementionaton](https://www.boost.org/doc/libs/1_62_0/boost/flyweight/serialize.hpp)
  
  
 ## Flyweight DesignPattern
@@ -35,13 +35,13 @@ When these objects are immutable, i.e. they do not modify its internal state exc
   1. [tlbimp.exe](https://docs.microsoft.com/en-us/dotnet/framework/tools/tlbimp-exe-type-library-importer)
   2. [StreamReader](https://referencesource.microsoft.com/#mscorlib/system/io/streamreader.cs,925a52135ca31cfa)
   
-##Bridge Design Pattern
+## Bridge Design Pattern
 ### Key Idea
 The Bridge pattern is an application of the old advice, "prefer composition over inheritance".
 
 
-##Composite Design Pattern
-TreeView Class which is of Type ItemControl can addChild with a type of ['ItemCOntrol'] (https://msdn.microsoft.com/en-us/library/system.windows.controls.treeviewitem(v=vs.110).aspx)
+## Composite Design Pattern
+TreeView Class which is of Type ItemControl can addChild with a type of [ItemCOntrol](https://msdn.microsoft.com/en-us/library/system.windows.controls.treeviewitem(v=vs.110).aspx)
 
 Other References
 1.[RigsOfRods Case Study](http://codergears.com/Blog/?p=720)
